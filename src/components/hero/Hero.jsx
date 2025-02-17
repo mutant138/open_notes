@@ -4,12 +4,9 @@ import { Parallax } from "react-scroll-parallax";
 const Hero = () => {
   return (
     <div className="relative w-full h-[80vh] flex flex-col justify-center items-center text-center px-6 bg-gradient-to-r overflow-hidden from-black via-gray-900 to-black">
-      {/* Parallax Background Effect */}
       <Parallax speed={-10} className="absolute inset-0 z-0">
         <div className="w-full h-full bg-[url('/your-bg-image.jpg')] bg-cover bg-center opacity-40"></div>
       </Parallax>
-
-      {/* Text Content with Motion Effects */}
       <motion.h1
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -37,7 +34,7 @@ const Hero = () => {
         className="flex gap-4 mt-10 relative z-10"
       >
         <motion.a
-          href="/notes"
+          href="/resources"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           className="px-6 py-3 bg-[#00df9a] text-black font-semibold rounded-lg hover:bg-[#00bf7a] transition duration-300 shadow-lg"
