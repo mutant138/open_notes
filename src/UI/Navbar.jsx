@@ -18,7 +18,6 @@ const Navbar = () => {
   return (
     <div className='bg-gradient-to-r from-black via-gray-900 to-black flex justify-between items-center h-16 w-full px-6 text-white shadow-md fixed top-0 z-50'>
       <h1 className='text-3xl font-bold text-[#00df9a]'>Notesly</h1>
-
       <ul className='hidden md:flex gap-6'>
         {navItems.map((item) => (
           <li key={item.id}>
