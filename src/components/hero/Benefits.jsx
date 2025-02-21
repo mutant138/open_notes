@@ -15,19 +15,19 @@ const Benefits = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "Only Notes has been a game-changer for my studies. The free PDFs and notes are incredibly helpful!",
+      quote: "Notesly has been a game-changer for my studies. The free PDFs and notes are incredibly helpful!",
       author: "John Doe",
       role: "Student",
     },
     {
       id: 2,
-      quote: "I love how easy it is to find high-quality resources on Only Notes. Highly recommended!",
+      quote: "I love how easy it is to find high-quality resources on Notesly. Highly recommended!",
       author: "Jane Smith",
       role: "Educator",
     },
     {
       id: 3,
-      quote: "The community-driven approach makes Only Notes stand out. It's a must-have resource for learners.",
+      quote: "The community-driven approach makes Notesly stand out. It's a must-have resource for learners.",
       author: "Alex Johnson",
       role: "Developer",
     },
@@ -42,11 +42,11 @@ const Benefits = () => {
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
       >
-        Why Use Only Notes?
+        Why Use Notesly?
       </motion.h2>
 
       {/* Features Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-20">
         {features.map((feature, index) => (
           <motion.div
             key={feature.id}
@@ -77,7 +77,7 @@ const Benefits = () => {
         transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
       >
         <p className="text-lg text-gray-300 mb-6">
-          Join thousands of learners and educators who are already benefiting from Only Notes. Start your journey today!
+          Join thousands of learners and educators who are already benefiting from Notesly. Start your journey today!
         </p>
         <a
           href="#"

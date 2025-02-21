@@ -13,17 +13,20 @@ const Hero = () => {
         transition={{ duration: 1.2, ease: "easeOut" }}
         className="text-4xl md:text-6xl font-bold text-[#00df9a] neon-text relative z-10 mt-6"
       >
-        Only Notes - Free Study Materials & PDFs
+        Notesly - Free Study Materials & PDFs
       </motion.h1>
 
       <motion.p
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
-        className="text-lg md:text-xl max-w-2xl mt-4 text-white relative z-10"
+        className="text-lg md:text-xl max-w-2xl mt-14 text-white relative z-10"
       >
-        Download **free educational PDFs, handwritten notes, and study guides** for exams, competitive tests, and academic learning.  
-        Contribute your own notes and help students worldwide.
+        Notely is a 100% open-source platform for students and developers.
+        Download **free educational PDFs, handwritten notes, and study guides**.
+        Access resources for exams, competitive tests, and technical learning.
+        Learn from experts and contribute your own study materials. Knowledge
+        should be **free for everyone!** 🚀
       </motion.p>
 
       {/* Buttons with Hover Effects */}
@@ -31,7 +34,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.8, ease: "easeOut" }}
-        className="flex gap-4 mt-10 relative z-10"
+        className="flex gap-4 mt-16 relative z-10"
       >
         <motion.a
           href="/resources"
